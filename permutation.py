@@ -12,6 +12,6 @@ def permutation(l , r, nums, res):
 
 if __name__ == "__main__":
     res = []
-    nums = [1,1,2]
+    nums = [1,2,3]
     permutation(0, len(nums), nums, res)
     print(res)
